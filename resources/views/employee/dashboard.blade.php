@@ -7,7 +7,7 @@
         <h3 align="center" class="mt-5">EMPLOYEE TABLE</h3>
 
         <div class="row">
-            
+        <a href="{{url('employee/create')}}" class="btn btn-primary">ADD</a>    
             <div class= "card-body">
                 <table class= "table table-bordered table-striped">
                     <thead>
@@ -43,7 +43,6 @@
                             <td>{{$identify->division}}</td>
                             <td>
                             <a href="{{url('employee/'.$identify->id.'/edit')}}" class="btn btn-success">EDIT</a>
-                            <a href="#" class="btn btn-danger">DELETE</a>
                             </td>
                         </tr>
                         @endforeach
@@ -51,7 +50,6 @@
                 </table>
             </div>
         </div>
-        <a href="{{url('employee/create')}}" class="btn btn-primary">ADD</a>    
     </div>
     
 

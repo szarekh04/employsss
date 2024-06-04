@@ -26,7 +26,7 @@
                 <a href="{{ route('home') }}" class="nav-link">
                     <i class="nav-icon fas fa-link"></i>
                     <p>
-                        {{ __('BSIT-3A  ') }}
+                        {{ __('BSIT-3A') }}
                     </p>
                 </a>
             </li>
@@ -36,15 +36,6 @@
                     <i class="nav-icon fas fa-link"></i>
                     <p>
                         {{ __('Employee Management') }}
-                    </p>
-                </a>
-            </li>
-
-            <li class="nav-item">
-                <a href="{{ route('about') }}" class="nav-link">
-                    <i class="nav-icon fas fa-link"></i>
-                    <p>
-                        {{ __('System Management') }}
                     </p>
                 </a>
             </li>

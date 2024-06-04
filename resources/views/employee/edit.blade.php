@@ -84,7 +84,7 @@
 
                     </div>
                     <div class="row">
-                    <a href="employee.index">
+                    <a href="{{url('employee.index')}}">
                         <div class="col-md-6 mt-2">
                             <input type="submit" class="btn btn-danger" value="Back">
                     </a>

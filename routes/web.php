@@ -22,7 +22,6 @@ Route::middleware('auth')->group(function () {
     Route::view('about', 'about')->name('about');
     Route::get('employee/dashboard', [\App\Http\Controllers\EmployeeControl::class, 'index2'])->name('employee.dashboard');
     Route::get('employee', [\App\Http\Controllers\UserController::class, 'index'])->name('employee.index');
-    Route::get('employee/create', [App\Http\Controllers\EmployeeControl::class, 'create']);
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
     Route::put('profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
 });

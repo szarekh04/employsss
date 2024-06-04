@@ -17,7 +17,7 @@
               <div class="icon">
                 <i class="ion ion-bag"></i>
               </div>
-              <a href="{{url('employee/dashboard')}}" class="small-box-footer">Redirect to Table <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="{{url('employee/dashboard')}}" class="small-box-footer">Redirect to Table<i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
 
