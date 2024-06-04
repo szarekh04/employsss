@@ -13,10 +13,11 @@ class UserController extends Controller
         return view('users.index', compact('users'));
     }
 
-    public function index2()
+    public function userprof()
     {
         $users = User::paginate();
-        return view('employee.dashboard', compact('users'));
+
+        return view ('users.userprofile', compact('users'));
     }
 
 }

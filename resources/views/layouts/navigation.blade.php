@@ -41,7 +41,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="{{route('home')}}" class="nav-link">
+                <a href="{{route('users.userprofile')}}" class="nav-link">
                     <i class="nav-icon fas fa-link"></i>
                     <p>
                         User Management

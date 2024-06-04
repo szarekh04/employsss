@@ -20,6 +20,7 @@ Route::get('/home', [App\Http\Controllers\EmployeeControl::class, 'index'])->nam
 
 Route::middleware('auth')->group(function () {
     Route::view('about', 'about')->name('about');
+    Route::get('users', [\App\Http\Controllers\UserController::class, 'userprof'])->name('users.userprofile');
     Route::get('employee/dashboard', [\App\Http\Controllers\EmployeeControl::class, 'index2'])->name('employee.dashboard');
     Route::get('employee', [\App\Http\Controllers\UserController::class, 'index'])->name('employee.index');
     Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
