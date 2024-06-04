@@ -19,6 +19,13 @@ class EmployeeControl extends Controller
      return view('employee.create');
    }
 
+   public function index2()
+   {
+       $employment = Employ::paginate();
+       return view('employee.dashboard', compact('employment'));
+   }
+
+
    public function store(Request $request)
    {    
        $request -> validate([

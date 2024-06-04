@@ -26,13 +26,13 @@
                 <a href="{{ route('home') }}" class="nav-link">
                     <i class="nav-icon fas fa-link"></i>
                     <p>
-                        {{ __('Dashboard') }}
+                        {{ __('BSIT-3A  ') }}
                     </p>
                 </a>
             </li>
 
             <li class="nav-item">
-                <a href="{{ route('employee.index') }}" class="nav-link">
+                <a href="{{ url('employee/dashboard') }}" class="nav-link">
                     <i class="nav-icon fas fa-link"></i>
                     <p>
                         {{ __('Employee Management') }}
@@ -50,7 +50,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{route('home')}}" class="nav-link">
                     <i class="nav-icon fas fa-link"></i>
                     <p>
                         User Management

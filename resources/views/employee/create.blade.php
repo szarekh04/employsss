@@ -78,14 +78,14 @@
                     </div>
                     <div class="row">
                         <div class="col-md-12 mt-3">
-                            <input type="submit" class="btn btn-primary" value="Save">
+                            <input type="submit" class="btn btn-success" value="Save">
                         </div>
 
                     </div>
                     <div class="row">
-                    <a href="{{  route('employee.index') }}">
-                        <div class="col-md-6 mt-2">
-                            <input type="submit" class="btn btn-primary" value="Back">
+                    <a href="{{url('employee.index') }}">
+                        <div class="col-md-5 mt-1">
+                            <input type="submit" class="btn btn-danger" value="Back">
                     </a>
                      </div>
 
